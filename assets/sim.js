@@ -88,7 +88,7 @@
     $('bPlay').onclick = play;
     $('scrub').oninput = e => { stop(); go(+e.target.value); };
     document.addEventListener('keydown', e => {
-      if (e.target.closest('input[type=text],input[type=number],select')) return;
+      if (e.target.closest('input[type=text],input[type=number],select,textarea')) return;
       if (e.key === 'ArrowRight') { e.preventDefault(); stop(); go(cur + 1); }
       else if (e.key === 'ArrowLeft') { e.preventDefault(); stop(); go(cur - 1); }
       else if (e.key === ' ' && !e.target.closest('button')) { e.preventDefault(); play(); }

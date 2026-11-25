@@ -34,4 +34,8 @@ Hard problems and games
 - [Travelling Salesman Problem](https://mazhar1807102.github.io/algorithm-simulations/tsp/): brute force, Held–Karp DP, branch and bound, nearest neighbour, MST 2-approximation, 2-opt
 - [Game Theory Algorithms](https://mazhar1807102.github.io/algorithm-simulations/game-theory/): minimax, alpha–beta, saddle points, graphical method, dominance, Nash equilibria, Nim
 
+Try it yourself
+
+- [C/C++ Playground](https://mazhar1807102.github.io/c-cpp-playground/): write C or C++ in the browser and see the output beside the editor, re-run as you type
+
 Plain HTML, CSS and JavaScript; no build step. Open any `index.html` in a browser.
